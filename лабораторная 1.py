@@ -5,7 +5,7 @@ import json
 system=platform.system()
 if system=="Windows":
     name1="Windows"
-if system=="Linux":
+elif system=="Linux":
     name1="Linux"
 else:
     name1="Unknown"
