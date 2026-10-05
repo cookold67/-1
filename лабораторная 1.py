@@ -21,9 +21,6 @@ p={
         "processor": platform.processor(),
         "cpu": os.cpu_count(),
         "computer_name": platform.node()
-    },
-    "python": {
-        "version": platform.python_version()
     }
     }
 
